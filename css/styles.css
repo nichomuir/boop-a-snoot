@@ -1,0 +1,128 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 18px;
+    width: 900px;
+    height: 650px;
+    padding: 15px;
+    box-shadow: 5px 10px 30px #888888;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.title {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.padding-right {
+    padding-right: 2em;
+}
+
+#grid {
+    width: 520px;
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    /*border-style: solid;*/
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+}
+
+#leaderboard {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 70%;
+}
+
+#leaderboard td, #leaderboard th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+#leaderboard-header {
+    background-color: #f2f2f2;
+}
+
+#leaderboard-container {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-item {
+    margin: 2.5px; 
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5A5A5A;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.invisible {
+    color: white;
+}
+
+#sign-in {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 225px;
+    text-align: center;
+}
+
+#create-account {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    text-align: center;
+}
+
+#req4 {
+    margin-top: 5px;
+}
+
+#player {
+    height: 27px;
+    margin-top: 10px;
+}
